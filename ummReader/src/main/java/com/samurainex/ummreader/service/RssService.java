@@ -1,0 +1,24 @@
+package com.samurainex.ummreader.service;
+
+import android.app.IntentService;
+import android.content.Intent;
+
+/**
+ * Created by w_priyambodo on 10/23/13.
+ */
+public class RssService extends IntentService {
+
+    /**
+     * Creates an IntentService.  Invoked by your subclass's constructor.
+     *
+     * @param name Used to name the worker thread, important only for debugging.
+     */
+    public RssService(String name) {
+        super(name);
+    }
+
+    @Override
+    protected void onHandleIntent(Intent intent) {
+
+    }
+}
